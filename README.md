@@ -1,5 +1,6 @@
 # Playlist_Recommendation
 
+
 ## Problem statement: To explore the Spotify dataset to predict the variability of the features available.
 
 ## Objectives:
@@ -81,5 +82,4 @@ Using K-means clustering based on a track name input, I generated a playlist of 
 
 The ideal number of clusters for the K-means algorithm was determined using the elbow method, suggesting that 12 clusters would be optimal. Each cluster contains tracks with similar characteristics. Based on a specific song's cluster, playlists can be created. The dynamic input model generates a list of 10 similar songs based on the track name input.
 
-![alt text](https://github.com/supragyabajpai/Playlist_Recommendation/blob/main/Pictures/playlist.jpg)
-
+![alt text](https://github.com/supragyabajpai/Playlist_Recommendation/blob/main/Pictures/playlist_1.jpg)
