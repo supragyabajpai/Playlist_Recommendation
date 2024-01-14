@@ -1,7 +1,9 @@
 # Playlist_Recommendation
 
 
-## Problem statement: To explore the Spotify dataset to predict the variability of the features available.
+## Problem statement: 
+
+To explore the Spotify dataset to predict the variability of the features available.
 
 ## Objectives:
 
