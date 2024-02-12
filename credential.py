@@ -1,7 +1,0 @@
-username = 'sb_admin'
-password = 'YEV3cu@012'
-server = 'spotifycluster.database.windows.net'
-database = 'spotifycluster'
-table = 'spotifycluster.df_clustering'
-driver = '{ODBC Driver 18 for SQL Server}'
-connectionstring = 'Driver={ODBC Driver 18 for SQL Server};Server=tcp:spotifycluster.database.windows.net,1433;Database=spotifycluster;Uid=sb_admin;Pwd={your_password_here};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
