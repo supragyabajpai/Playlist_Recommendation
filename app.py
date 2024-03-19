@@ -4,7 +4,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-st.set_page_config(page_title="Playlist Genrator", layout="wide",page_icon=":musical_note:")
+st.set_page_config(page_title="Playlist Generator", layout="wide",page_icon=":musical_note:")
 
 
 # Read the data from the Excel file
@@ -46,12 +46,12 @@ def get_similar_popular_tracks(track_name, df_clustering): # Function to get sim
 
 
 with st.container():
-    st.subheader("Hi, Welcome to the playlist genrator..")
+    st.subheader("Hi, Welcome to the Playlist Generator..")
     st.write("This app utilizes the renowned Spotify dataset to generate personalized playlists based on your favorite song. Upon inputting a track name, the model identifies the cluster to which the track belongs and suggests a playlist of 10 songs from that cluster, offering users dynamically tailored playlists to match their preferences. Give it a try!"
     )
     st.write("Limitations: The dataset is restricted to a smaller number of clusters. To access the full range of clusters, it's recommended to download the dataset and execute the code on your local machine.")
     st.write("[Dataset](https://www.kaggle.com/datasets/amitanshjoshi/spotify-1million-tracks)")
-    st.write("[Check out how I am predicting the popularity of a song.](https://github.com/supragyabajpai/Playlist_Recommendation/blob/main/Code_file.ipynb)")
+    st.write("[How I predict the popularity of songs and group them into clusters.](https://github.com/supragyabajpai/Playlist_Recommendation/blob/main/Code_file.ipynb)")
 
 with st.container():
     st.write("---")
